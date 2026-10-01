@@ -666,7 +666,7 @@ document.querySelectorAll('.track').forEach(function(t){var o=Array.from(t.child
 })();
 /* ===== Site settings: put the e-mail address between the quotes ===== */
 /* email: shown on the site. ai: address of the AI service (see worker.js); leave empty to use the built-in answers */
-var SITE={email:'anass.3edt@gmail.com',ai:''};
+var SITE={email:'anass.3edt@gmail.com',ai:'https://anass-ai.anas-31-hassani.workers.dev'};
 (function(){
   if(!SITE.email)return;
   document.querySelectorAll('.mail-link').forEach(function(a){a.href='mailto:'+SITE.email});
